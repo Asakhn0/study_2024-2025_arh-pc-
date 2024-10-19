@@ -1,6 +1,6 @@
 ; hello.asm
 SECTION .data                  ; Начало секций данных
-    hello: DB 'Hello word', 10 ; 'Hello word!' плюс
+    hello: DB 'Sakhno Alyna', 10 ; 'Hello word!' плюс
                                ; символ перевода строки
     helloLen EQU $-hello       ; Длина строки hello
     
